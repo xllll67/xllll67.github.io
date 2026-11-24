@@ -1,0 +1,81 @@
+{
+  "site": {
+    "name": "赖学谦",
+    "brand": "L",
+    "title": "电气工程硕士 · 电力系统及其自动化",
+    "tagline": "在仿真里把电网折腾明白",
+    "location": "广州",
+    "email": "2212833895@qq.com",
+    "intro": "本硕都在华南理工大学读电气工程，现在研二。方向是新能源并网、新能源设备建模与电力系统稳定性分析，日常在 Simulink 和 PSCAD 里搭模型，也在广东电网电科院实习。最近沉迷用 vibecoding 折腾各种小玩意。"
+  },
+  "projects": [
+    {
+      "name": "某地区超高密度负荷中心短路电流与暂态电压分析",
+      "year": "2025",
+      "role": "主要负责人",
+      "stack": [
+        "Simulink",
+        "短路电流计算",
+        "暂态电压稳定"
+      ],
+      "desc": "梳理该负荷中心的短路电流水平与关键设备的短路电流情况，研究暂态电压失稳的主导机理，产出论文 1 篇。",
+      "link": ""
+    }
+  ],
+  "skills": [
+    {
+      "group": "专业方向",
+      "items": [
+        "新能源并网",
+        "新能源设备建模",
+        "电力系统稳定性分析",
+        "短路电流分析",
+        "暂态电压稳定"
+      ]
+    },
+    {
+      "group": "仿真与计算",
+      "items": [
+        "PSCAD / EMTDC",
+        "MATLAB / Simulink",
+        "BPA"
+      ]
+    },
+    {
+      "group": "编程与工具",
+      "items": [
+        "Python",
+        "C",
+        "DSP 开发"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "period": "2025 — 至今",
+      "company": "华南理工大学",
+      "role": "电气工程 硕士（电力系统及其自动化）",
+      "desc": "方向是新能源并网、新能源设备建模与电力系统稳定性分析；参与某地区超高密度负荷中心短路电流与暂态电压课题。"
+    },
+    {
+      "period": "2026 — 至今",
+      "company": "广东电网电力科学研究院",
+      "role": "实习生",
+      "desc": "在电科院参与新能源并网方向的分析与测试工作。"
+    },
+    {
+      "period": "2021 — 2025",
+      "company": "华南理工大学",
+      "role": "电气工程及其自动化 本科",
+      "desc": "本科毕业继续在本校读研，方向转为电力系统及其自动化。"
+    }
+  ],
+  "posts": [
+    {
+      "title": "A benefit–risk coordinated siting method for grid-forming converters considering transient voltage support and short-circuit current risk",
+      "date": "2026-08",
+      "summary": "Frontiers in Energy Research（Smart Grids），第二作者，2026 年 8 月 31 日发表，DOI: 10.3389/fenrg.2026.1912578",
+      "url": "https://doi.org/10.3389/fenrg.2026.1912578"
+    }
+  ]
+}

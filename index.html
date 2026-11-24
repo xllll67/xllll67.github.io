@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>你的名字 · 房间</title>
+<meta name="description" content="一个用等距 3D 房间做入口的个人主页：项目与课题、技能与工具、教育与实习经历、论文与笔记都摆在房间里。">
+<link rel="stylesheet" href="./assets/css/room.css">
+<script type="importmap">
+{ "imports": { "three": "./assets/vendor/three.module.min.js" } }
+</script>
+</head>
+<body>
+<div id="loader"><div class="loader-bar"><span></span></div><p>正在开灯…</p></div>
+
+<canvas id="scene"></canvas>
+
+<header class="hud hud-tl">
+  <div class="brand" id="brand">N</div>
+  <div class="who">
+    <h1 id="site-name">你的名字</h1>
+    <p id="site-title">电气工程硕士 · 电力系统及其自动化</p>
+  </div>
+</header>
+
+<nav class="hud hud-tr">
+  <button id="theme-btn" title="切换白天 / 夜晚">夜晚</button>
+  <a href="./site.html" class="plain-link">文字版</a>
+</nav>
+
+<div class="hud hud-bl">
+  <p class="hint">拖动旋转 · 滚轮缩放 · 点击房间里的物件</p>
+</div>
+
+<aside class="panel" id="panel" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="panel-title">
+  <div class="panel-card" id="panel-card">
+    <header class="panel-head">
+      <div>
+        <p class="kicker" id="panel-kicker"></p>
+        <h2 id="panel-title"></h2>
+      </div>
+      <button id="panel-close" aria-label="关闭">×</button>
+    </header>
+    <div class="panel-body" id="panel-body"></div>
+  </div>
+</aside>
+
+<div class="tip" id="tip"></div>
+
+<script type="module" src="./assets/js/room.js"></script>
+</body>
+</html>
